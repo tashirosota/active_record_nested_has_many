@@ -84,13 +84,13 @@ GEM
     method_source (1.0.0)
     mini_mime (1.0.3)
     minitest (5.14.4)
-    mysql2 (0.5.3)
     nio4r (2.5.7)
     nokogiri (1.11.3-x86_64-darwin)
       racc (~> 1.4)
     parallel (1.20.1)
     parser (3.0.1.0)
       ast (~> 2.4.1)
+    pg (1.2.3)
     racc (1.5.2)
     rack (2.2.3)
     rack-test (1.1.0)
@@ -171,7 +171,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_record_nested_has_many!
-  mysql2
+  pg
   rails (~> 6.1.0)
   rake (~> 13.0)
   rspec (~> 3.0)
